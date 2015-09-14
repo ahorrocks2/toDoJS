@@ -1,0 +1,12 @@
+#showList {
+  display: none;
+}
+
+.list {
+  cursor: pointer;
+  color: green;
+}
+
+.list:hover {
+  text-decoration: underline;
+}

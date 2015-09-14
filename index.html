@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To Do Lists</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To do Lists</h1>
+      <div class="row">
+          <div class="col-md-6">
+            <h2>List</h2>
+            <form id="newList">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name of list" id="newListName">
+              </div>
+
+              <div id="newTasks">
+                <div class="newTask">
+                  <div class="form-group">
+                    <input type="text" class="form-control newTaskName" placeholder="Name of task">
+                  </div>
+                </div>
+              </div>
+
+              <span class="btn btn-primary" id="add-task">Another task</span>
+
+
+              <button type="submit" class="btn btn-info">Add List</button>
+            </form>
+
+            <h2>Lists:</h2>
+              <ul id="lists">
+
+              </ul>
+          </div>
+
+          <div class="col-md-6">
+            <div id="showList">
+              <h2></h2>
+                <p>Name: <span class="listName"></span></p>
+                <p>Task:</p>
+                <ul id="tasks">
+
+                </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
